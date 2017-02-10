@@ -4,7 +4,7 @@
 // @namespace    https://github.com/hotmit/latest-doc-redirector-userscript
 // @version      1.0.0
 // @description  Redirect the version you googled to the latest doc versions.
-// @description:vi  Chuyển trang tài liệu mới nhất (python, django, ruby)
+// @description:vi   Chuyển những trang bạn tìm được qua trang tài liệu với phiên bản mới nhất (python, django, ruby)
 // @author       Du Dang
 // @include https://docs.djangoproject.com/*
 // @include https://docs.python.org/2/*
