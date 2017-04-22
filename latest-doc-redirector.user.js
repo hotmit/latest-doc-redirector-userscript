@@ -2,7 +2,7 @@
 // @name         Lastest Doc Redirector (python, django, ruby)
 // @name:vi      Chuyển trang tài liệu mới nhất (python, django, ruby)
 // @namespace    https://github.com/hotmit/latest-doc-redirector-userscript
-// @version      1.0.0
+// @version      1.0.1
 // @description  Redirect the version you googled to the latest doc versions.
 // @description:vi   Chuyển những trang bạn tìm được qua trang tài liệu với phiên bản mới nhất (python, django, ruby)
 // @author       Du Dang
@@ -17,9 +17,9 @@
     'use strict';
 
     // Change desired version number
-    var PYTHON_TARGET_VERSION = '3';
+    var PYTHON_TARGET_VERSION = '3.6';
     var DJANGO_TARGET_VERSION = '1.11';
-    var RUBY_TARGET_VERSION = '2.4.0';
+    var RUBY_TARGET_VERSION = '2.4.1';
 
     // region [ Str Lib ]
     var Str = {};

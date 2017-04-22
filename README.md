@@ -1,5 +1,5 @@
 # Lastest Doc Redirector
-> **Redirect the version you googled to the latest doc versions (python, django, ruby).**
+> **Redirect the version you visit to the latest doc versions (python, django, ruby).**
 
 ## Greasyfork Link
 [[ Greasyfork ]](https://greasyfork.org/en/scripts/27249-lastest-doc-redirector-python-django-ruby)
@@ -10,8 +10,12 @@
 * Allow to go back to the old version when press the "Back" button.
 
 ## Todo
-* [ ] Allow the user to pick the target version
+* [ ] Allow the users to pick their target version
 
 ## Change Logs
-* v1.0.0 
+* v1.0.1
+    * Upgraded django version to 1.11
+    * Upgraded python doc version to 3.6
+    * Upgraded ruby doc version to 2.4.1
+* v1.0.0
 	* init
