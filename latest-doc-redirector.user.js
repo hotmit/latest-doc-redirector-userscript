@@ -18,7 +18,7 @@
 
     // Change desired version number
     var PYTHON_TARGET_VERSION = '3';
-    var DJANGO_TARGET_VERSION = '1.10';
+    var DJANGO_TARGET_VERSION = '1.11';
     var RUBY_TARGET_VERSION = '2.4.0';
 
     // region [ Str Lib ]
@@ -49,7 +49,7 @@
     {
         // https://docs.djangoproject.com/en/1.5/topics/db/optimization/
         // INTO https://docs.djangoproject.com/en/1.7/topics/db/optimization/
-        href = href.replace(/docs.djangoproject.com\/(\w{2})\/(\d\.\d|dev)/gi,
+        href = href.replace(/docs.djangoproject.com\/(\w{2})\/(\d+\.\d+|dev)/gi,
                             'docs.djangoproject.com/en/' + DJANGO_TARGET_VERSION);
         forward(href);
     }
